@@ -72,7 +72,7 @@ The following tools were used in the construction of the project:
 - [PyCharm](https://www.jetbrains.com/pycharm/)
 - [Figma](https://www.figma.com/)
 - [Inno Setup](https://jrsoftware.org/isinfo.php)
-- [PyInsttaler](https://pyinstaller.org/en/stable/)
+- [PyInstaller](https://pyinstaller.org/en/stable/)
 
 ---
 
