@@ -91,11 +91,11 @@ THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR I
 
 
 ### Download
-<a align="center" href="https://bit.ly/YoutubeDownloaderWindowsSetup123">
+<a align="center" href="https://bit.ly/YoutubeDownloaderWindowsSetup123" target="_blank">
   <img alt="GitHub language count" src="https://res.cloudinary.com/dwqd0nals/image/upload/v1690698360/inno_m6lnoz.png">
 </a>
 <br/>
-<a display="flex" href="https://bit.ly/YoutubeDownloaderWindowsSetup123">
+<a display="flex" href="https://bit.ly/YoutubeDownloaderWindowsSetup123" target="_blank">
  <img alt="GitHub language count" src="https://cdn-icons-png.flaticon.com/512/9199/9199004.png" width="40" height="40">
  <p>Download Application</p>
 </a>
