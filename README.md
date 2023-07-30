@@ -24,7 +24,7 @@ Yt Downloader is a project made from Python and using PyQt5 and pytube. It is a 
 ## ⚙️ Features
 
 <span style="color:green;">✔</span> Download videos from YouTube<br/>
-<span style="color:green;">✔</span> Download videos in the best quality available<br/>
+<span style="color:green;">✔</span> Download videos in the best quality available which is 720 up<br/>
 <span style="color:green;">✔</span> Download videos in mp4 format<br/>
 <span style="color:green;">✔</span> Download videos in mp3 format
 
