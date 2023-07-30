@@ -1,0 +1,504 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>form</class>
+ <widget class="QWidget" name="form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1000</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="sizePolicy">
+   <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+    <horstretch>0</horstretch>
+    <verstretch>0</verstretch>
+   </sizepolicy>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>1000</width>
+    <height>600</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>1000</width>
+    <height>600</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">#form{
+
+	background-color: rgb(255, 255, 255);
+}</string>
+  </property>
+  <widget class="QWidget" name="container1" native="true">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>500</width>
+     <height>600</height>
+    </rect>
+   </property>
+   <property name="sizePolicy">
+    <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+     <horstretch>0</horstretch>
+     <verstretch>0</verstretch>
+    </sizepolicy>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>500</width>
+     <height>600</height>
+    </size>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>500</width>
+     <height>600</height>
+    </size>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">#container1{
+background: #252525;
+}</string>
+   </property>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>100</x>
+      <y>100</y>
+      <width>277</width>
+      <height>348</height>
+     </rect>
+    </property>
+    <property name="sizePolicy">
+     <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+      <horstretch>0</horstretch>
+      <verstretch>0</verstretch>
+     </sizepolicy>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>277</width>
+      <height>348</height>
+     </size>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>277</width>
+      <height>348</height>
+     </size>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>../images/logopage.png</pixmap>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QWidget" name="container2" native="true">
+   <property name="geometry">
+    <rect>
+     <x>500</x>
+     <y>0</y>
+     <width>501</width>
+     <height>601</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">#container2{
+background:#FFFFFF;
+}</string>
+   </property>
+   <widget class="QLineEdit" name="linkInput">
+    <property name="geometry">
+     <rect>
+      <x>43</x>
+      <y>50</y>
+      <width>411</width>
+      <height>32</height>
+     </rect>
+    </property>
+    <property name="focusPolicy">
+     <enum>Qt::ClickFocus</enum>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&amp;display=swap');
+
+#linkInput{
+font-family: 'Poppins', sans-serif;
+padding-left:5px;
+border-radius: 5px;
+border: 1px solid #E8E8E8;
+background: #FFF;
+}
+#linkInput:focus{
+border: 1px solid #EC3333;
+}</string>
+    </property>
+    <property name="placeholderText">
+     <string>Enter youtube link</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label1">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>30</y>
+      <width>431</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&amp;display=swap');
+
+#label1{
+font-family: 'Poppins', sans-serif;
+padding-left:1px;
+
+}
+</string>
+    </property>
+    <property name="text">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; color:#252525;&quot;&gt;Enter the link of YouTube video you want to download:&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btnSearch">
+    <property name="geometry">
+     <rect>
+      <x>150</x>
+      <y>110</y>
+      <width>200</width>
+      <height>30</height>
+     </rect>
+    </property>
+    <property name="sizePolicy">
+     <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+      <horstretch>0</horstretch>
+      <verstretch>0</verstretch>
+     </sizepolicy>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>200</width>
+      <height>30</height>
+     </size>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>200</width>
+      <height>30</height>
+     </size>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300,500&amp;display=swap');
+
+#btnSearch{
+font-family: 'Poppins', sans-serif;
+border-radius: 5px;
+background: #CA3232;
+color:white;
+letter-spacing: 0.13px;
+}
+#btnSearch:hover{
+background: #EC3333;
+}
+</string>
+    </property>
+    <property name="text">
+     <string>Search</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="imgThumbnail">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>160</y>
+      <width>415</width>
+      <height>247</height>
+     </rect>
+    </property>
+    <property name="sizePolicy">
+     <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+      <horstretch>0</horstretch>
+      <verstretch>0</verstretch>
+     </sizepolicy>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>415</width>
+      <height>247</height>
+     </size>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>415</width>
+      <height>247</height>
+     </size>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-radius: 5px;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="textFormat">
+     <enum>Qt::PlainText</enum>
+    </property>
+    <property name="pixmap">
+     <pixmap>../images/thnail.png</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+    <property name="wordWrap">
+     <bool>false</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="lblTitle">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>430</y>
+      <width>411</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="sizePolicy">
+     <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+      <horstretch>0</horstretch>
+      <verstretch>0</verstretch>
+     </sizepolicy>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>400</width>
+      <height>20</height>
+     </size>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>440</width>
+      <height>20</height>
+     </size>
+    </property>
+    <property name="font">
+     <font>
+      <family>Poppins</family>
+      <pointsize>-1</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400&amp;display=swap');
+
+#lblTitle{
+font-family: 'Poppins', sans-serif;
+font-size:12px;
+}
+</string>
+    </property>
+    <property name="text">
+     <string>Title : </string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="lblViews">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>460</y>
+      <width>440</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="sizePolicy">
+     <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+      <horstretch>0</horstretch>
+      <verstretch>0</verstretch>
+     </sizepolicy>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>440</width>
+      <height>20</height>
+     </size>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>440</width>
+      <height>20</height>
+     </size>
+    </property>
+    <property name="font">
+     <font>
+      <family>Poppins</family>
+      <pointsize>-1</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400&amp;display=swap');
+
+#lblViews{
+font-family: 'Poppins', sans-serif;
+font-size:12px;
+}
+</string>
+    </property>
+    <property name="text">
+     <string>Views : </string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="lblDuration">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>490</y>
+      <width>440</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="sizePolicy">
+     <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+      <horstretch>0</horstretch>
+      <verstretch>0</verstretch>
+     </sizepolicy>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>440</width>
+      <height>20</height>
+     </size>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>440</width>
+      <height>20</height>
+     </size>
+    </property>
+    <property name="font">
+     <font>
+      <family>Poppins</family>
+      <pointsize>-1</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400&amp;display=swap');
+
+#lblDuration{
+font-family: 'Poppins', sans-serif;
+font-size:12px;
+}
+</string>
+    </property>
+    <property name="text">
+     <string>Duration :</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btnMp3">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>530</y>
+      <width>180</width>
+      <height>30</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400&amp;display=swap');
+
+#btnMp3{
+font-family: 'Poppins', sans-serif;
+border-radius: 5px;
+background: #CA3232;
+color:white;
+font-weight:400;
+letter-spacing: 0.13px;
+}
+#btnMp3:hover{
+background: #EC3333;
+}
+</string>
+    </property>
+    <property name="text">
+     <string>Download as .mp3</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btnMp4">
+    <property name="geometry">
+     <rect>
+      <x>280</x>
+      <y>530</y>
+      <width>180</width>
+      <height>30</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400&amp;display=swap');
+
+#btnMp4{
+font-family: 'Poppins', sans-serif;
+border-radius: 5px;
+background: #CA3232;
+color:white;
+font-weight:400;
+letter-spacing: 0.13px;
+}
+#btnMp4:hover{
+background: #EC3333;
+}
+</string>
+    </property>
+    <property name="text">
+     <string>Download as .mp4</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="errorMessage">
+    <property name="geometry">
+     <rect>
+      <x>38</x>
+      <y>79</y>
+      <width>411</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&amp;display=swap');
+
+#errorMessage{
+font-family: 'Poppins', sans-serif;
+padding-left:3px;
+color:#F43423;
+}
+</string>
+    </property>
+    <property name="text">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; color:#e60f00;&quot;&gt;Please Input link in the textbox !!!&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
