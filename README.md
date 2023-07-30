@@ -11,8 +11,8 @@
   <a href="#-features">Features</a> •
   <a href="#-how-to-use">How to use</a> •
   <a href="#-technologies">Technologies</a> •
-  <a href="#-license">License</a>
-  <a href="#-application">Application</a>
+  <a href="#-license">License</a> •
+  <a href="#-application">Application</a> 
 </p>
 
 ## 💻 About
